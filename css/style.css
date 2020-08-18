@@ -1,0 +1,238 @@
+/*Style Background*/
+body{
+  background: url(../img/bg_form1.jpg);
+  background-repeat:repeat-x;
+  background-attachment:fixed;
+  background-position: left top;
+  position:absolute;
+  width: 100vw;
+  margin:0;
+  backdrop-filter: blur(15px);
+}
+/*Style logo*/
+.logo{
+  border-radius: 100%;
+}
+/*Styme navbar*/
+.navBar li {
+ display: inline-block;
+}
+.navBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+.navBar li a:hover {
+  color: grey;
+  transition: 0.8s;
+}
+li a.active {
+  color: grey;
+}
+/*dropdown*/
+.deroulante_content {
+  background-image: url(../img/bg_form.jpg);
+  background-size: 320px 300px; 
+  display: none;
+  position: absolute;
+  box-shadow: 0px 10px 20px 0px;
+  z-index: 1;
+}
+.deroulante:hover .deroulante_content { 
+  display: block;
+  transition: 0.5s;
+}
+/*partie gauche :tous les articles - Toutes les pages*/
+.tous_les_articles h3{
+  color: white;
+}
+.tous_les_articles a{
+  display: block;
+  color: white;
+  text-align: justify;
+  text-decoration: none;
+  padding: 5px;
+}
+.tous_les_articles a:hover{
+  text-decoration: none;
+  color: grey;
+  transition: 0.8s;
+}
+/*Home/Partie centre/Article */
+.article{
+  border-radius: 5px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  box-shadow: 10px 10px 20px black;
+}
+.article p {
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  color: white;
+}
+.article h2{
+  color: white;
+}
+.article h4{
+  color: white;
+}
+/*Partie gauche : Créer (toutes les pages)*/
+.creer{
+  border-radius: 5px;
+  background-image: url(../img/bg_creer.jpg);
+  background-size: cover;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  box-shadow: 20px 20px 20px black;
+}
+.creer h3{
+  color: white;
+}
+.titre{
+  width: 100%;
+}
+.date{
+  width: 100%;
+}
+.contenu{
+  width: 100%;
+  height: 150px;
+}
+.soumettre{
+  width: 100%;
+  background : transparent;
+  color: white;
+  padding: 8px 8px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.soumettre:hover{
+  color : grey;
+  transition: 0.8s;
+}
+/*Blog/Background du blog*/
+.fond_blog{
+  border-radius: 5px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  box-shadow: 10px 10px 20px black;
+}
+.container-fluid p{
+  color: black;
+}
+.container-fluid h2{
+  color: black;
+}
+.container-fluid h4{
+  color: black;
+}
+/*Text blog*/
+.text_all_star{
+  margin-top: 115px;
+  margin-left: 15px;
+}
+.text_mamba{
+  margin-top: 75px;
+  margin-right: 15px;
+}
+.text_kawhi{
+  margin-top: 150px;
+  margin-left: 15px;
+}
+.text_dunk{
+  margin-top: 111px;
+  margin-right: 15px;
+}
+.text_coach{
+  margin-top: 77px;
+  margin-left: 15px;
+}
+/*Background form contact*/
+.contact{
+  border-radius: 5px;
+  background-image: url(../img/bg_form2.jpg);
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 50px;
+  width: auto;
+  height: auto;
+  box-shadow: 10px 10px 20px black;
+}
+.contact h3{
+  color: white;
+}
+input[type=text], [type=date], [type=mail], [type=textarea], select {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  box-sizing: border-box;
+  background: transparent;
+  padding: 15px;
+  outline: none;
+  color: white;
+}
+::-webkit-input-placeholder{
+  color: white;
+}
+/*Style Dashboard*/
+.dashboard_left{
+  border-radius: 5px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  box-shadow: 10px 10px 20px black;
+}
+.dashboard_left h5{
+  padding:10px;
+  color : white; 
+}
+.dashboard_left a{
+  padding:10px;
+  color : grey; 
+}
+.dashboard_left a:hover{
+  color: white;
+  text-decoration: none;
+  transition: 0.8s;
+}
+.dashboard{
+  border-radius: 5px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  box-shadow: 10px 10px 20px black;
+}
+tr{
+  border-bottom: 2px solid;
+}
+td{
+  padding: 10px;
+  color: black;
+}
+td a{
+  color: black;
+}
+td a:hover{
+  text-decoration: none;
+  color: white;
+  transition: 0.8s;
+}
+/*Style footer*/
+footer{
+  border-radius: 5px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  box-shadow: 10px 10px 20px black;
+  text-align: center;
+}
